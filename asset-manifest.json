@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/KORADA-BALA-PAVANI/Demo_Final_Project/static/css/main.05095339.css",
+    "main.js": "/KORADA-BALA-PAVANI/Demo_Final_Project/static/js/main.e474c4b4.js",
+    "static/js/453.6981f3b5.chunk.js": "/KORADA-BALA-PAVANI/Demo_Final_Project/static/js/453.6981f3b5.chunk.js",
+    "static/media/values.jpeg": "/KORADA-BALA-PAVANI/Demo_Final_Project/static/media/values.c45db7befd33a54d7c97.jpeg",
+    "static/media/vision.jpeg": "/KORADA-BALA-PAVANI/Demo_Final_Project/static/media/vision.cdb851ee37ed664b478f.jpeg",
+    "static/media/KMC.jpeg": "/KORADA-BALA-PAVANI/Demo_Final_Project/static/media/KMC.abcd52462375101db94c.jpeg",
+    "static/media/mission.jpeg": "/KORADA-BALA-PAVANI/Demo_Final_Project/static/media/mission.45967e19103cf8821725.jpeg",
+    "index.html": "/KORADA-BALA-PAVANI/Demo_Final_Project/index.html",
+    "main.05095339.css.map": "/KORADA-BALA-PAVANI/Demo_Final_Project/static/css/main.05095339.css.map",
+    "main.e474c4b4.js.map": "/KORADA-BALA-PAVANI/Demo_Final_Project/static/js/main.e474c4b4.js.map",
+    "453.6981f3b5.chunk.js.map": "/KORADA-BALA-PAVANI/Demo_Final_Project/static/js/453.6981f3b5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05095339.css",
+    "static/js/main.e474c4b4.js"
+  ]
+}
