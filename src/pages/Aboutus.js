@@ -13,11 +13,6 @@ import GetInvolved from './Aboutus_Components/GetInvolved';
 const Aboutus = () => {
   return (
     <>
-      <div>
-        <h1>About Us Page</h1>
-        <h1>Welcome to Kind Meal Connect</h1>
-        <p>Your platform for connecting surplus food with those in need.</p>
-      </div>
 
       <div className="container mt-5">
         <h1 className="text-center mb-5">About Us</h1>
