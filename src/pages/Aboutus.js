@@ -25,7 +25,7 @@ const Aboutus = () => {
           <Card 
             imgSrc={MissionImg}
             imgAlt="Our Mission"
-        
+          
             text="We are dedicated to tackling the issues of food waste and hunger simultaneously. 
                   Our mission is to create a sustainable solution where surplus food can be donated to those in need. 
                   We connect generous donors with orphanages and charitable homes, ensuring that no food goes to waste 
