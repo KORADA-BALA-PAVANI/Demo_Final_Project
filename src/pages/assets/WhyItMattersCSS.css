@@ -1,0 +1,81 @@
+/* Card styling */
+.wim-card__card {
+  /* Your custom card styles */
+  background-color: #f8f9fa;
+  color: #000;
+  height: 100%; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.wim-card__card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.wim-card__card {
+  height: 100%; /* Ensures all cards are the same height */
+  width: 100%; /* Ensures consistent width */
+  background-color: #f8f9fa;
+  color: #000;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.wim-card__card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.wim-card__title {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.wim-card__hr {
+  border-top: 2px solid #000;
+  width: 100%;
+  margin: 0 0 auto;
+}
+
+.wim-card__text {
+  text-align: justify;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.wim-carousel__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wim-carousel__control-prev,
+.wim-carousel__control-next {
+  width: auto; /* Allow the buttons to only take necessary space */
+}
+
+.wim-carousel__control-prev-icon,
+.wim-carousel__control-next-icon {
+  background-color: #000; /* Custom arrow color */
+  width: 40px; /* Set a fixed size for the arrows */
+  height: 40px;
+}
+
+.wim-carousel__control-prev,
+.wim-carousel__control-next {
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10; /* Ensure the arrows are on top but not overlapping cards */
+}
+
+.wim-carousel__control-prev {
+  left: -90px; /* Move the arrow further to the left */
+}
+
+.wim-carousel__control-next {
+  right: -90px; /* Move the arrow further to the right */
+}
+
+button {
+  border: none;
+  background-color: white;
+}
