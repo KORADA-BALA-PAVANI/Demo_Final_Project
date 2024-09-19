@@ -1,182 +1,218 @@
 /* Custom Navbar Styles */
 .navbar {
-    padding: 1%; /* Adjust padding for the navbar */
-    background-color: #343a40; /* Dark background for the navbar */
-  }
-  
-  .nav-item {
-    color: #fff; /* White text color for the navbar items */
-  }
-  
-  .navbar-brand {
-    color: #fff; /* White color for the brand name in the navbar */
-  }
-  
-  .nav-link {
-    color: #fff; /* White color for the navigation links */
-    padding: 0.5rem 1rem; /* Adjust padding for the links */
-    text-transform: uppercase; /* Make the text uppercase */
-  }
-  
-  .nav-link:hover {
-    color: #007bff; /* Change link color on hover */
-  }
-  
-  .navbar-toggler {
-    border-color: #007bff; /* Color for the navbar toggler button border */
-  }
-  
-  .navbar-toggler-icon {
-    background-color: #007bff; /* Color for the toggler icon */
-  }
-  
-  .collapse.navbar-collapse {
-    justify-content: flex-end; /* Align the links to the right */
-  }
-  
-  /* Footer Styles */
-  .footer {
-    background-color: #343a40; /* Dark background for the footer */
-    color: #fff; /* White text color for the footer */
+  padding: 1%; /* Adjust padding for the navbar */
+  background-color: #343a40; /* Dark background for the navbar */
+}
 
-    margin-bottom: 0%;
-  }
-  
-  /*Card Styling in Aboutus Page*/
-  /* src/pages/Aboutus_Components/Card.css */
+.nav-item {
+  color: #fff; /* White text color for the navbar items */
+}
+
+.navbar-brand {
+  color: #fff; /* White color for the brand name in the navbar */
+}
+
+.nav-link {
+  color: #fff; /* White color for the navigation links */
+  padding: 0.5rem 1rem; /* Adjust padding for the links */
+  text-transform: uppercase; /* Make the text uppercase */
+}
+
+.nav-link:hover {
+  color: #007bff; /* Change link color on hover */
+}
+
+.navbar-toggler {
+  border-color: #007bff; /* Color for the navbar toggler button border */
+}
+
+
+.collapse.navbar-collapse {
+  justify-content: flex-end; /* Align the links to the right */
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #343a40; /* Dark background for the footer */
+  color: #fff; /* White text color for the footer */
+
+  margin-bottom: 0%;
+}
+
+/*Card Styling in Aboutus Page*/
+/* src/pages/Aboutus_Components/Card.css */
 /* src/assets/style.css */
 /* 
 .card-img {
-  width: 100%;
-  height: auto;
+width: 100%;
+height: auto;
 }
 
 .card-body {
-  padding: 20px;
+padding: 20px;
 }
 
 .card-text {
-  text-align: justify;
-  font-size: 16px;
-  line-height: 1.5;
-  align-content: center;
+text-align: justify;
+font-size: 16px;
+line-height: 1.5;
+align-content: center;
 } */
 /* src/pages/Aboutus_Components/Card.css */
 .card {
-  display: flex;
-  margin-bottom: 1rem; /* Space between cards */
-  border: 3px solid black; /* Optional: border around card */
-  border-radius: 8px; /* Optional: rounded corners */
-  overflow: hidden; /* Ensure the image does not overflow */
-  padding: 2%;
-  
-  color:black;
-  font-size: 20px;
+display: flex;
+margin-bottom: 1rem; /* Space between cards */
+border: 3px solid black; /* Optional: border around card */
+border-radius: 8px; /* Optional: rounded corners */
+overflow: hidden; /* Ensure the image does not overflow */
+padding: 2%;
+
+color:black;
+font-size: 20px;
 
 }
 
 .card-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Ensures image covers the area without distortion */
+width: 100%;
+height: 100%;
+object-fit: cover; /* Ensures image covers the area without distortion */
 }
 
 .card-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 1rem;
 }
 
 .card-text {
-  text-align: justify; /* Center text inside the card-body */
-  margin-top: 50px;
- 
+text-align: justify; /* Center text inside the card-body */
+
 }
 
 /*How it works css */
 .borderr {
-  border: 2px solid black;
-  border-radius: 20px;
+border: 2px solid black;
+border-radius: 20px;
 }
 /*Why it matters */
 /*Contact us Styling */
 form {
-  color: white;
-  background-color: #090506;
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-  width: 60%;
-  max-width: 450px;
-  border-radius: 10px;
+color: white;
+background-color: #090506;
+display: flex;
+flex-direction: column;
+padding: 20px;
+width: 60%;
+max-width: 450px;
+border-radius: 10px;
 }
 
 form h3 {
-  font-weight: 200px;
-  margin-bottom: 20px;
+font-weight: 200px;
+margin-bottom: 20px;
 }
 
 form input,
 form textarea {
-  border: 0;
-  padding: 12px;
-  margin: 10px;
-  outline: none;
-  border-radius: 10px;
+border: 0;
+padding: 12px;
+margin: 10px;
+outline: none;
+border-radius: 10px;
 }
 
 form button {
-  padding: 20px;
-  background-color: #fcc200;
-  font-size: 19px;
-  border: 5px;
-  outline: none;
-  cursor: pointer;
-  width: 250px;
-  margin: 30px auto 0;
-  border-radius: 30px;
+padding: 20px;
+background-color: #fcc200;
+font-size: 19px;
+border: 5px;
+outline: none;
+cursor: pointer;
+width: 250px;
+margin: 30px auto 0;
+border-radius: 30px;
 }
 
 .focus {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
 }
 
 .form-1 {
-  border: 0px;
-  padding: 5px;
-  display: flex;
-  height: 650px;
+border: 0px;
+padding: 5px;
+display: flex;
+height: 650px;
 }
 
 .contact-1 {
-  border: 0px;
-  padding: 5px;
-  display: flex;
-  height: 500px;
+border: 0px;
+padding: 5px;
+display: flex;
+height: 500px;
 }
 
 .l-1 {
-  background-color: #090506;
-  color: white;
-  padding: 20px;
-  border: 60px;
+background-color: #090506;
+color: white;
+padding: 20px;
+border: 60px;
 }
 
 .contact-1 h3 {
-  background-color: #090506;
-  padding: 10px;
-  border: none;
-  border-radius: 10px;
+background-color: #090506;
+padding: 10px;
+border: none;
+border-radius: 10px;
 }
 
 .svg-1 {
-  background-image: url("contact-us-animate.svg");
-  background-repeat: no-repeat;
-  max-width: 100%;
-  max-height: 100%;
-  background-position: center;
-  background-size: cover;
+background-image: url("contact-us-animate.svg");
+background-repeat: no-repeat;
+max-width: 100%;
+max-height: 100%;
+background-position: center;
+background-size: cover;
+}
+/* Custom styles for carousel */
+/* Make sure the images cover the entire carousel */
+.carousel-item img {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  border: none; /* Remove default border */
+  border-radius: 50%; /* Optional: Makes the buttons round */
+  width: 50px; /* Adjust width */
+  height: 50px; /* Adjust height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none; /* Remove default icon background */
+}
+
+.carousel-control-prev-icon::before,
+.carousel-control-next-icon::before {
+  content: ''; /* Required for displaying FontAwesome icons */
+  font-family: 'FontAwesome'; /* Ensure FontAwesome is used */
+  font-size: 1.5rem; /* Adjust icon size */
+  color: white; /* Set icon color */
+}
+
+.carousel-control-prev {
+  left: 10px; /* Adjust position */
+}
+
+.carousel-control-next {
+  right: 10px; /* Adjust position */
 }
